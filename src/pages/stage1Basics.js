@@ -9,7 +9,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"stage-1-basics"} />
 		<Helmet>
 			<title>
-				Basics | Onboarding Quarkly
+				trucoder
 			</title>
 			<meta name={"description"} content={"At this stage, you're going to learn how to add elements to the page, edit their content and style properties.\n"} />
 			<meta property={"og:title"} content={"Basics | Onboarding Quarkly"} />
@@ -274,10 +274,10 @@ export default (() => {
 			transition={"--opacityOut"}
 			quarkly-title={"Badge"}
 			text-decoration-line={"initial"}
-			href={"https://quarkly.io/"}
+			href={"https://quio/"}
 			target={"_blank"}
 		>
-			Made on Quarkly
+			
 		</Link>
 	</Theme>;
 });
