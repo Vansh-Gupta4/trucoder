@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Image, Box, List, Span, Icon } from "@quarkly/widgets";
+import { Theme, Link, Text, Image, Box, List, Span, Icon, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, Section, StackItem, Stack } from "@quarkly/components";
+import { Override, Section } from "@quarkly/components";
 import * as Components from "components";
 import { MdHelp } from "react-icons/md";
 export default (() => {
@@ -402,7 +402,7 @@ export default (() => {
 					What is Competitive Programming?
 				</Text>
 				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
-					It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+					Competitive Programming is a mental sport which enables you to code a given problem under provided constraints. The purpose of this article is to guide every individual possessing a desire to excel in this sport. This article provides a detailed syllabus for Competitive Programming designed by industry experts to boost the preparation of the readers.{"\n\n"}
 				</Text>
 			</Box>
 			<Box
@@ -425,7 +425,11 @@ export default (() => {
 					What are coding contests?
 				</Text>
 				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
-					It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+					The Coding Contests or Competitions provide you the opportunity to{" "}
+					<Strong>
+						analyze your skills and proficiency
+					</Strong>
+					, and to compare yourself to other programmers across the world. Apart from these, various scholarships, prizes, jobs & internships opportunities are also provided to the participating programmers.{"\n\n"}
 				</Text>
 			</Box>
 			<Box
@@ -448,87 +452,9 @@ export default (() => {
 					Is this platform free?
 				</Text>
 				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
-					It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+					Yes! Always
 				</Text>
 			</Box>
-		</Section>
-		<Section padding="64px 0" sm-padding="40px 0" font="--base" color="--dark">
-			<Text
-				as="h1"
-				font="--headline1"
-				md-font="--headline2"
-				max-width="520px"
-				margin="0 auto 5px auto"
-				text-align="center"
-			>
-				The Creators
-			</Text>
-			<Text
-				as="p"
-				color="--grey"
-				max-width="520px"
-				margin="0 auto"
-				text-align="center"
-				font="--lead"
-			>
-				The smartest people who worked to provide this platform and help beginners begin their Competitive Programming career
-			</Text>
-			<Stack margin-top="40px">
-				<StackItem width="25%" lg-width="50%" sm-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=582&q=80) 50% 0/cover no-repeat" />
-					<Text color="--grey" margin="0">
-						CEO
-					</Text>
-					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
-						Nathan K. Joe
-					</Text>
-					<Text as="p" margin="20px 0 5px 0">
-						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
-					</Text>
-				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1546672741-d327539d5f13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80) 50% 0/cover no-repeat" />
-					<Text color="--grey" margin="0">
-						Developer
-					</Text>
-					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
-						David R. Lema
-					</Text>
-					<Text as="p" margin="20px 0 5px 0">
-						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
-					</Text>
-				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80) 50% 0/cover no-repeat" />
-					<Text color="--grey" margin="0">
-						Marketing
-					</Text>
-					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
-						Janet E. Morey
-					</Text>
-					<Text as="p" margin="20px 0 5px 0">
-						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
-					</Text>
-				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1510227272981-87123e259b17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80) 50% 0/cover no-repeat" />
-					<Text color="--grey" margin="0">
-						Designer
-						<br />
-					</Text>
-					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
-						Claire R. Peery
-						<br />
-					</Text>
-					<Text as="p" margin="20px 0 5px 0">
-						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
-					</Text>
-				</StackItem>
-			</Stack>
 		</Section>
 		<Image width="64px" height="64px" />
 		<Link
