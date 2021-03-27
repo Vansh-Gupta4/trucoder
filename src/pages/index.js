@@ -477,7 +477,6 @@ export default (() => {
 			href={"https://quarkly.io/"}
 			target={"_blank"}
 		>
-			Made on Quarkly
 		</Link>
 	</Theme>;
 });
