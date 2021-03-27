@@ -11,7 +11,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				Intro | Onboarding Quarkly
+				trucoder
 			</title>
 			<meta name={"description"} content={"At this stage, you are going to get to know the Quarkly interface and main features.\n"} />
 			<meta property={"og:title"} content={"Intro | Onboarding Quarkly"} />
@@ -474,7 +474,7 @@ export default (() => {
 			transition={"--opacityOut"}
 			quarkly-title={"Badge"}
 			text-decoration-line={"initial"}
-			href={"https://quarkly.io/"}
+			href={"https://io/"}
 			target={"_blank"}
 		>
 		</Link>
