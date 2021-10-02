@@ -1,4 +1,5 @@
-# Quarkly export project
+# trucoder App
+One stop for React application for Competitive Programmers
 <p align="center">
   <img src="http://uploads.quarkly.io/readme/cra/readme-quarkly-and-cra.png" width="480px" alt="Create-React-App project from Quarkly">
 </p>
